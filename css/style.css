@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #020A18;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu.background {
+    background: linear-gradient(180deg, rgba(11, 14, 58, 0.555) -41.9%, rgba(11, 10, 73, 0.555) 260.24%);
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left h3 {
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 22.55px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link a:hover {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 100ms;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right button {
+    width: 112px;
+    height: 52px;
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+.promo {
+    margin: 0 0 0 400px;
+    max-width: 1200px;
+    padding-top: 50px;
+    opacity: 5;
+}
+
+.promo_bg {
+    background: linear-gradient(180deg, rgba(11, 14, 58, 0.555) -41.9%, rgba(11, 10, 73, 0.555) 260.24%);
+    /* opacity: 0.1; */
+    backdrop-filter: blur(100px);
+    border-radius: 10px;
+    max-width: 1850px;
+    margin: 0 auto;
+}
+
+.information {
+    display: flex;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+
+.information_text {
+    display: flex;
+    flex-direction: column;
+    max-width: 610px;
+    gap: 40px;
+}
+
+.information_text h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.information_text h3 {
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.information_text p {
+    font-size: 18px;
+
+}
+
+span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-top: 80px;
+}
+
+
+
+span button {
+    width: 217px;
+    height: 57px;
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+span button:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.information_logo {
+    display: flex;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.information_about {
+    margin-top: 100px;
+    color: #FFFFFF;
+}
